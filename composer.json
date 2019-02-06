@@ -13,7 +13,6 @@
             "email": "yahiru1121@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Yahiru\\LaravelUseCaseGenerator\\": "src/"
