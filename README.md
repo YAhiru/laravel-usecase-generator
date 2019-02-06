@@ -24,7 +24,7 @@ composer require --dev yahiru/laravel-usecase-generator
 ```bash
 php artisan make:usecase UserRegister
 ```
-git@github.com:YAhiru/laravel-usecase-generator.git
+
 
 もちろん、任意のディレクトリを指定することも可能です。
 ```bash
