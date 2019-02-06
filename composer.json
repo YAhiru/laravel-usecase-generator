@@ -1,7 +1,7 @@
 {
     "name": "yahiru/laravel-usecase-generator",
     "description": "Create UseCcase classes for Clean Architecture.",
-    "type": "metapackage",
+    "type": "library",
     "require": {
         "php": "^7.0",
         "laravel/framework": "~5.5"
