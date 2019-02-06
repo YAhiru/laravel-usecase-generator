@@ -1,0 +1,29 @@
+{
+    "name": "yahiru/usecase-generator",
+    "description": "Create UseCcase classes for Clean Architecture.",
+    "type": "metapackage",
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": "~5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yuhei yoshida",
+            "email": "yahiru1121@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Yahiru\\UseCaseGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yahiru\\UseCaseGenerator\\UseCaseGeneratorServiceProvider"
+            ]
+        }
+    }
+}
