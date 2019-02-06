@@ -1,6 +1,6 @@
 <?php
 
-namespace Yahiru\UseCaseGenerator;
+namespace Yahiru\LaravelUseCaseGenerator;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Support\Str;

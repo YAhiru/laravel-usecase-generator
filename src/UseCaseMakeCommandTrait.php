@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Yahiru\UseCaseGenerator;
+namespace Yahiru\LaravelUseCaseGenerator;
 
 use Illuminate\Support\Str;
 

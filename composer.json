@@ -1,5 +1,5 @@
 {
-    "name": "yahiru/usecase-generator",
+    "name": "yahiru/laravel-usecase-generator",
     "description": "Create UseCcase classes for Clean Architecture.",
     "type": "metapackage",
     "require": {
@@ -16,13 +16,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Yahiru\\UseCaseGenerator\\": "src/"
+            "Yahiru\\LaravelUseCaseGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yahiru\\UseCaseGenerator\\UseCaseGeneratorServiceProvider"
+                "Yahiru\\LaravelUseCaseGenerator\\UseCaseGeneratorServiceProvider"
             ]
         }
     }
